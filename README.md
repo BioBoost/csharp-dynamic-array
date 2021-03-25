@@ -66,3 +66,10 @@ Create a class `Stack` that models this kind of behavior.
 <!-- TODO - Make Remove() throw exception of index is out of bound -->
 <!-- TODO - Make Peek() throw exception of index is out of bound -->
 <!-- TODO - Use generics instead of Object - https://stackoverflow.com/questions/3049072/template-function-in-c-sharp-return-type -->
+
+## Getting Repo Updates
+
+```bash
+git remote add base git@github.com:vives-introduction-to-programming-2020/csharp-dynamic-array.git
+git pull --allow-unrelated base master
+```
