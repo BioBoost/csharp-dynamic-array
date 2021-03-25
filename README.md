@@ -47,6 +47,22 @@ DynamicArray:
 ] Capacity (8) | Count (3)
 ```
 
+## Creating a Stack class
+
+A stack is an array or list structure used in modern computer programming and CPU architecture. Similar to a stack of plates at a buffet restaurant or cafeteria, elements in a stack are added or removed from the top of the stack, in a "last in first, first out" or LIFO order.
+
+![Stack Representation](./img/stack.jpg)
+
+The process of adding data to a stack is referred to as a "push", while retrieving data from a stack is called a "pop".
+
+Create a class `Stack` that models this kind of behavior.
+
+![UML Class Diagram of Stack](./img/uml_stack.png)
+
+### Your Approach
+
+**Explain here how you approached this problem. How have you solved this. Do you see any problems with this approach?**
+
 <!-- TODO - Make Remove() throw exception of index is out of bound -->
 <!-- TODO - Make Peek() throw exception of index is out of bound -->
 <!-- TODO - Use generics instead of Object - https://stackoverflow.com/questions/3049072/template-function-in-c-sharp-return-type -->
