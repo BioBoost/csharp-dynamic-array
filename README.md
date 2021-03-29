@@ -59,6 +59,18 @@ Create a class `Stack` that models this kind of behavior.
 
 ![UML Class Diagram of Stack](./img/uml_stack.png)
 
+## Creating a Queue class
+
+A queue is a first-in first-out (FIFO) abstract data type that is heavily used in computing. Uses for queues involve anything where you want things to happen in the order that they were called, but where the computer can't keep up to speed. For example:
+
+![Queue Representation](./img/queue.jpg)
+
+The process of adding data to a queue is referred to as an "enqueue", while retrieving data from a queue is called a "dequeue".
+
+Create a class `Queue` that models this kind of behavior.
+
+![UML Class Diagram of Queue](./img/uml_queue.png)
+
 ### Your Approach
 
 **Explain here how you approached this problem. How have you solved this. Do you see any problems with this approach?**
