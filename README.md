@@ -71,13 +71,19 @@ Create a class `Queue` that models this kind of behavior.
 
 ![UML Class Diagram of Queue](./img/uml_queue.png)
 
-### Your Approach
+## Your Approach
 
 **Explain here how you approached this problem. How have you solved this. Do you see any problems with this approach?**
 
 <!-- TODO - Make Remove() throw exception of index is out of bound -->
 <!-- TODO - Make Peek() throw exception of index is out of bound -->
 <!-- TODO - Use generics instead of Object - https://stackoverflow.com/questions/3049072/template-function-in-c-sharp-return-type -->
+
+## The IEnumerator Interface
+
+Implement the `IEnumerator` into the `DynamicArray` collection so a `foreach` can be used to iterate over your own custom collection.
+
+Find an example here: [IEnumerator Interface](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerator?view=net-5.0)
 
 ## Getting Repo Updates
 
