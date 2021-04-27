@@ -85,6 +85,10 @@ Implement the `IEnumerator` into the `DynamicArray` collection so a `foreach` ca
 
 Find an example here: [IEnumerator Interface](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerator?view=net-5.0)
 
+## Exceptions
+
+Make sure that both `Remove()` and `Peek()` throw an `IndexOutOfRangeException` when an element is accessed outside of the range of the indexes.
+
 ## Getting Repo Updates
 
 ```bash
